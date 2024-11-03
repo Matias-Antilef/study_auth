@@ -1,0 +1,12 @@
+.home_main {
+  background-color: #1f1f1f;
+  height: max-content;
+  padding-left: 5vw;
+}
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}

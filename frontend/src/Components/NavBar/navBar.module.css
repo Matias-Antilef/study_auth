@@ -1,0 +1,59 @@
+.container {
+  background-color: wheat;
+  height: 100vh;
+  width: 5vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: center;
+
+  & svg {
+    height: 50px;
+    width: 50px;
+    stroke: black;
+  }
+}
+
+.containerLarge {
+  width: 15vw;
+
+  .links_container {
+    & a {
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    & span {
+      font-size: 2rem;
+    }
+  }
+}
+
+.menuSVG {
+  background-color: transparent;
+  padding: 2rem 0;
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  & svg {
+  }
+}
+
+.links_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  & a {
+    display: flex;
+    flex-direction: column;
+
+    & span {
+      font-size: 1rem;
+    }
+  }
+}
